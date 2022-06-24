@@ -4,6 +4,7 @@ function liveSearch(keyword) {
         xhttp.onload = function() {
             document.getElementById("ajax-data-barang").innerHTML = this.responseText;
         }
+        // jika keyword kosong, gunakan default-data-barang.php untuk mengembalikan data default pada tabel data barang
         xhttp.open("POST", "default-data-barang.php");
         xhttp.send();
         return;
