@@ -1,0 +1,366 @@
+body {
+    /* background-color: lightblue; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Login */
+.login {
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.login ul {
+    list-style-type: none;
+}
+
+.login ul li {
+        /* margin-top: 20px; */
+        margin-bottom: 20px;
+        /* margin: 30px; */
+        /* background-color: #04AA6D; */
+        text-align: left;
+        text-decoration: none;
+        margin-left: 0px;
+        margin-right: 40px;
+}
+
+.login a {
+    text-decoration: none;
+    color: dodgerblue; 
+    display: block;
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+.login a:hover {
+    background-color: lightblue;
+    color: blue;
+}
+
+
+.login button {
+    padding: 10px 24px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: -40px;
+}
+
+.login button:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.login p {
+    color: red;
+    margin-left: -40px;
+}
+/* Login */
+
+
+/* Navbar */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    /* margin-bottom: 30px; */
+}
+
+.navbar li {
+    /* display: inline; */
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+.navbar .active {
+    background-color: #04AA6D;
+}
+/* Navbar */
+
+
+/* Tabel */
+.tabel-data-user {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.tabel-data-user th {
+    background-color: forestgreen;
+}
+.tabel-data-user th, td {
+    padding: 15px;
+}
+
+.tabel-data-user tr:hover {
+    background-color: burlywood;
+}
+
+.tabel-data-user .button {
+    padding: 6px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.tabel-data-user .button:hover {
+    /* filter: brightness(90%); */
+    background-color: darkgreen;
+}
+
+/* Tabel */
+
+
+/* Edit data user */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: DodgerBlue; */
+}
+  
+.edit-data-user {
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.edit-data-user .button {
+    padding: 6px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.edit-data-user a {
+    display: inline-block;
+    padding: 6px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+.edit-data-user .button:hover, a:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.edit-data-user ul {
+    list-style-type: none;
+}
+
+.edit-data-user ul li {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    /* margin: 30px; */
+    /* background-color: #04AA6D; */
+    text-align: left;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Edit data user */
+
+
+/* Edit data barang */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: DodgerBlue; */
+}
+  
+.edit-data-barang {
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.edit-data-barang .button {
+    padding: 6px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.edit-data-barang a {
+    display: inline-block;
+    padding: 6px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+.edit-data-barang .button:hover, a:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.edit-data-barang ul {
+    list-style-type: none;
+}
+
+.edit-data-barang ul li {
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    /* margin: 30px; */
+    /* background-color: #04AA6D; */
+    text-align: left;
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    margin-left: -40px;
+}
+
+.notifikasi-berhasil {
+    color: green;
+}
+
+.notifikasi-gagal {
+    color: red;
+}
+
+/* Edit data barang */
+
+
+/* Tambah data barang */
+.tambah-data-barang {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px 20px;
+}
+
+.tambah-data-barang:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+/* Tambah data barang */
+
+
+/* Cari user */
+.cari-user {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.button-cari {
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 15px;
+}
+
+.button-cari:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.error-pencarian {
+    color: red;
+    margin-top: -20px;
+}
+
+/* Cari user */
+
+
+/* Pagination */
+.halaman {
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    padding: 5px 0px;
+}
+
+.halaman a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.halaman a.active {
+    background-color: green;
+}
+/* Pagination */
+
+
+.teks-log {
+    color: black;
+    margin: 20px;
+    text-align: left;
+    margin-top: 30px;
+}
