@@ -15,11 +15,12 @@ if(isset($_POST["login"])){
     $password = htmlspecialchars($_POST["password"]);
     
     // // ambil password dari tabel user
-    $sql = "SELECT username, password FROM user WHERE username = '$username' ";
+    $sql = "SELECT id, username, password FROM user WHERE username = '$username' ";
     $result = mysqli_query($conn, $sql);
     if($result){
         while($row = mysqli_fetch_assoc($result)){
             $hashed_password = $row["password"];
+            $id = $row["id"];
         }
     }
 
@@ -32,6 +33,7 @@ if(isset($_POST["login"])){
             // jika hashed_password = null, tidak usah tampilkan warning
         } else if(password_verify($password, @$hashed_password)){
             $_SESSION["username"] = $username;
+            $_SESSION["id"] = $id;
             header("Location:data-barang.php");
         } else {
             $error_login = "Username / password salah";
