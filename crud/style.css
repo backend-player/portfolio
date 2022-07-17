@@ -364,3 +364,13 @@ p {
     text-align: left;
     margin-top: 30px;
 }
+
+.edit-foto-profil {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    color: white;
+    border-radius: 10px;
+    background-color: green;
+    padding: 8px 12px;
+}
