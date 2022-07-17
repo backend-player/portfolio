@@ -81,8 +81,12 @@ if(isset($_POST["cari-btn"])) {
       <li style="float: right;"><a href="../logout.php">Logout</a></li>
     </ul>
   </div>
+
   
   <div class="tabel-data-user">
+    
+    <a href="edit-user.php" class="edit-foto-profil">Edit foto profil</a>
+
     <form action="data-user.php" method="POST">
       <label>
         <input class="cari-user" type="text" name="cari" placeholder="Cari data user">
