@@ -7,7 +7,7 @@ if(!isset($_SESSION["username"])){
     header("Location: ../index.php");
   };
 
-$id = $_GET['id'];
+$id = $_SESSION["id"];
 
 $sql = "SELECT * FROM user WHERE id = '$id' ";
 $result = mysqli_query($conn, $sql);
