@@ -102,7 +102,6 @@ if(isset($_POST["cari-btn"])) {
         <th>Gambar</th>
         <th>Username</th>
         <th>Password</th>
-        <th>Aksi</th>
       </tr>
 
     <?php while($row = mysqli_fetch_assoc($result)) : ?>
@@ -119,10 +118,6 @@ if(isset($_POST["cari-btn"])) {
         <td><img src="../gambar/<?php echo $gambar ?>" width="100px"></td>
         <td><?php echo $username ?></td>
         <td><?php echo $password ?></td>
-        <td>
-          <a class="button" href="edit-user.php?id=<?php echo $row['id'] ?>">edit</a>
-          <a class="button" href="hapus-user.php?id=<?php echo $row['id'] ?>" onclick="return confirm('Anda yakin ingin menghapus data?');">hapus</a>
-        </td>
       </tr>
     <?php endwhile ?>
 
