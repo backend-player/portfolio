@@ -85,7 +85,7 @@ if(isset($_POST["cari-btn"])) {
   
   <div class="tabel-data-user">
     
-    <a href="edit-user.php" class="edit-foto-profil">Edit foto profil</a>
+    <a href="edit-user.php" class="edit-foto-profil">Edit profil</a>
 
     <form action="data-user.php" method="POST">
       <label>
