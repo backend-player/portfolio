@@ -13,3 +13,5 @@ How to run this application :
 - start Apache and MySQL in XAMPP control panel
 - open http://localhost/phpmyadmin/ in browser, import crud.sql
 - open http://localhost/crud
+
+Live demo : http://backendplayer.rf.gd
