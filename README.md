@@ -8,10 +8,10 @@ Features in this application :
 - view item log
 
 How to run this application :
-- install xampp
-- save the folder to htdocs in xampp folder
-- start Apache and MySQL in XAMPP control panel
-- open http://localhost/phpmyadmin/ in browser, import crud.sql
-- open http://localhost/crud
+1. install xampp
+2. save the folder to htdocs in xampp folder
+3. start Apache and MySQL in XAMPP control panel
+4. open http://localhost/phpmyadmin/ in browser, import crud.sql
+5. open http://localhost/crud
 
 Live demo : http://backendplayer.rf.gd
